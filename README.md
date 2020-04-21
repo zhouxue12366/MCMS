@@ -93,6 +93,8 @@ git clone https://gitee.com/mingSoft/MCMS.git<br/>
 7、运行MSApplication.java main方法<br/>
 8、首先先访问后台地址：http://ip|域名/项目发布名/ms/login.do，管理员账号，用户名：msopen 密码：msopen，进入后台点击内容管理->静态化菜单，进行"生成主页"，"生成栏目","生成文章"操作一遍 （注意！！！是后台登录界面，不是会员中心登录界面）
 
+建库SQL:
+CREATE DATABASE IF NOT EXISTS `db-mcms-open` DEFAULT CHARSET utf8 COLLATE utf8_general_ci;
 
 # 技术选型
 
